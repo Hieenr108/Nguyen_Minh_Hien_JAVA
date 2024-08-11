@@ -93,26 +93,19 @@ public class Student {
     public void nhap(){
         Scanner sc = new Scanner(System.in);
         System.out.println("Nhập tên sinh viên: ");
-        String hoTen = sc.nextLine();
-        setHoTen(hoTen);
+        hoTen = sc.nextLine();
         System.out.println("Nhập năm sinh: ");
-        int namSinh = sc.nextInt();sc.nextLine();
-        setNamSinh(namSinh);
+        namSinh = sc.nextInt(); sc.nextLine();s
         System.out.println("Nhập địa chỉ: ");
-        String diaChi = sc.nextLine();
-        setDiaChi(diaChi);
+        diaChi = sc.nextLine();
         System.out.println("Nhập điểm TX1: ");
-        double tx1 = sc.nextDouble();
-        setDiemTX1(diemTX1);
+        diemTX1 = sc.nextDouble();
         System.out.println("Nhập điểm TX2: ");
-        double tx2 = sc.nextDouble();
-        setDiemTX2(diemTX2);
+        diemTX2 = sc.nextDouble();
         System.out.println("Nhập điểm KTHP: ");
-        double kthp = sc.nextDouble();
-        setDiemKTHP(kthp);
+        diemKTHP = sc.nextDouble();
         System.out.println("Nhập số tiết nghỉ: ");
-        int soTietNghi = sc.nextInt();
-        setSoTietNghi(soTietNghi);
+        soTietNghi = sc.nextInt();
     }
 
     public static void inTieuDe(){
