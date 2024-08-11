@@ -24,6 +24,11 @@ public class Main {
         sinhVien.add(s2);
         Student s3 = new Student("Hoang", 2005, "Nghe An", 8, 9, 9,5);
         sinhVien.add(s3);
+        Student s4 = new Student("Phuong", 2005, "Nam Dinh", 9,9,10,2);
+        sinhVien.add(s4);
+        Student s5 = new Student("Quan", 2005, "Thanh Hoa", 8, 8 ,8, 3);
+        sinhVien.add(s5);
+        
     }
 
     public static void themSinhVien(){
